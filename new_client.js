@@ -14,7 +14,7 @@ const postClient = async (inputName, inputEmail, inputTelephone, inputPassword) 
         alert(response.status);
             if (response.status === 200) {
             alert("got here!");
-            window.location.href = '/login/index.html';
+            window.location.href = 'https://estudart.github.io/login_page_FullStack/';
         }
       })
       .catch((error) => {
